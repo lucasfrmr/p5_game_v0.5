@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Fatty-
 	Eat food to gain health while avioding poison that causes you to lose health.
 	as time progresses you lose health. The amount of health you have determines 
@@ -16,3 +17,7 @@ ToDo:
 	-
 
 	-SocketIO multi player
+=======
+# p5_game_v0.5
+A game I made with p5js.
+>>>>>>> eeac3bde4e8243ca64352324d558fc83c57488ea
