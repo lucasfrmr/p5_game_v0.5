@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+const { PORT } = process.env;
+
 // Serve static files from the 'public' folder
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -11,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 // Start the server
-const port = process.env.PORT || 4000;
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
+
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
 });
